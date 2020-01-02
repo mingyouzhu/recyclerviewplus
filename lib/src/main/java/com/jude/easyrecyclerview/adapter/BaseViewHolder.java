@@ -22,7 +22,7 @@ import java.lang.reflect.Field;
  * 在一些特殊情况下，只能在setData里设置监听。
  * @param <M>
  */
-public abstract class BaseViewHolder<M> extends RecyclerView.ViewHolder {
+abstract public class BaseViewHolder<M> extends RecyclerView.ViewHolder {
     public BaseViewHolder(View itemView) {
         super(itemView);
     }
